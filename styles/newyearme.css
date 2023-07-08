@@ -65,6 +65,7 @@ header {
 .failure-section {
     padding: 120px 0;
 }
+
 .failure-container {
     display: flex;
     align-items: center;
@@ -74,9 +75,11 @@ header {
 .failure-content {
     width: 500px;
 }
+
 .failure-pic {
     width: 480px;
 }
+
 .failure-title {
     color: #151414;
     font-size: 40px;
@@ -92,7 +95,7 @@ header {
     line-height: 26px;
 }
 
-.failure-list li{
+.failure-list li {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
@@ -102,8 +105,63 @@ header {
 }
 
 /* Plan Section */
+.section-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
 
 .plan-items-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.item-course img {
+    width: 93px;
+}
+
+.item-course {
+    text-align: center;
+}
+
+.course-tile {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.course-sub-title {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.watch-section {
+    display: flex;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 130px auto;
+    padding: 100px 0 100px 65px;
+}
+
+.plan-section-banner-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+}
+
+.banner-btn {
+    background-color: #fff;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
 }
