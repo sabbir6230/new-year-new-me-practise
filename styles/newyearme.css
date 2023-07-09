@@ -47,7 +47,7 @@ header {
 
 .header-title {
     width: 525px;
-    color: #15141;
+    color: #151414;
     font-size: 65px;
     font-weight: 700;
 
@@ -174,7 +174,6 @@ footer {
 
 .footer-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -214,5 +213,23 @@ footer {
 .subscribe-title {
     color: #FFF;
     font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.subscribe input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subscribe input[value="Subscribe"] {
+    color: #F15B22 !important;
+    font-size: 20px;
     font-weight: 600;
 }
